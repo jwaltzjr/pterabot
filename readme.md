@@ -1,11 +1,11 @@
 # Setup
 
- - Navigate to the project folder
+ - Navigate to the project folder&nbsp;
  `cd C:\Path\To\Project\`
- - Create and activate the virtual environment
-`python -m venv env`
+ - Create and activate the virtual environment&nbsp;
+`python -m venv env`&nbsp;
 `.\env\Source\activate`
- - Install the dependencies
+ - Install the dependencies&nbsp;
 `pip install -r requirements.txt`
  - Generate your config.json file using config-sample.json as a guide
 
