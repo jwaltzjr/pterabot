@@ -1,0 +1,11 @@
+{
+    "DISCORD_TOKEN": "YOUR-DISCORD-TOKEN-HERE",
+    "COMMANDS": ["test"],
+
+    "RULES_CHANNEL": "YOUR-RULES-CHANNEL-HERE",
+    "RULES": "These are the rules. Follow them.",
+
+    "USER_ROLES": ["TestRole1", "TestRole2"],
+
+    "POKE_CHANNELS": ["POKE-CHANNEL-1-HERE","POKE-CHANNEL-2-HERE"]
+}
