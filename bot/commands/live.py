@@ -11,4 +11,4 @@ async def live(ctx, user):
         embed.set_image(url=current_stream.thumbnail)
         await ctx.send(f'{current_stream.user} is currently live, playing {current_stream.current_game}!', embed=embed)
     else:
-        await ctx.send('{user} is not currently live.')
+        await ctx.send(f'{user} is not currently live.')
