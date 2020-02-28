@@ -13,5 +13,5 @@ async def refresh_rules(bot, channel_id, rules):
 
 async def accept_rules(reaction, user, rules_channel):
     if str(reaction.message.channel.id) ==  rules_channel:
-        role = get(reaction.message.guild.roles, RULES_ACCEPTED_ROLE)
+        role = get(reaction.message.guild.roles, name=RULES_ACCEPTED_ROLE)
         await user.add_roles(role)
